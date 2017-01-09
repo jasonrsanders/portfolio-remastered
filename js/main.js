@@ -9,6 +9,7 @@ var app = angular.module('myPortfolio', [
 */
 app.config(['$routeProvider', function ($routeProvider) {
     $routeProvider
+
     // Home
     .when("/", { templateUrl: "partials/home.html", controller: "PageCtrl" })
 
