@@ -165,26 +165,33 @@ img {
     width: 100%; /* for IE 6 */
 }
 
-.home-design {
+.home-part, .home-part2, .home-design, .home-code {
     color: #FFF;
-    letter-spacing: -1px;
     position: absolute;
-   top: 250px;
+    background: rgb(0, 0, 0); /* fallback color */
+    background: rgba(0, 0, 0, 0.7);
+    padding: 10px;
+    font-size: 35px;
+}
+
+.home-part {
+   top: 190px;
    left: 150px;
-   background: rgb(0, 0, 0); /* fallback color */
-   background: rgba(0, 0, 0, 0.7);
-   padding: 10px;
+}
+
+.home-design {
+   top: 250px;
+   left: 169px;
+}
+
+.home-part2 {
+   top: 190px;
+   right: 150px;
 }
 
 .home-code {
-    color: #FFF;
-    letter-spacing: -1px;
-    position: absolute;
    top: 250px;
-   right: 150px;
-   background: rgb(0, 0, 0); /* fallback color */
-   background: rgba(0, 0, 0, 0.7);
-   padding: 10px;
+   right: 177px;
 }
 
 /***MENU***/
