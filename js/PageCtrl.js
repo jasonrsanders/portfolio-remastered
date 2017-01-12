@@ -24,6 +24,5 @@ app.controller('PageCtrl', function($scope) {
             $(".coverImage2").width(positionExtra + "px");
         }
     });
-
-
+    
 });
