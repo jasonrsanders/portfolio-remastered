@@ -133,7 +133,8 @@ h2 {
 /*LANDING MEDIA QUERIES*/
 @media (min-width: 400px) and (orientation: portrait) {
   div.landing-nav a.nav-link {
-    font-size: 2rem; } }
+    font-size: 2rem; }
+}
 
 @media (min-width: 750px) {
   div.landing-nav a.nav-link {
@@ -148,7 +149,8 @@ h2 {
       div.title-card div.titles div.title {
         font-size: 2.75rem; }
       div.title-card div.titles div.sub-title {
-        font-size: 1rem; } }
+        font-size: 1rem;
+		margin-top: 20px; } }
 
 @media (min-width: 1024px) and (min-height: 1050px) {
   div.landing-nav a.nav-link {
@@ -169,7 +171,6 @@ h2 {
         font-size: 3rem; }
       div.title-card div.titles div.sub-title {
         font-size: 1.5rem; }
-    div.title-card div.arrow {
-      display: block; } }
+}
 
 /* END LANDING MEDIA QUERIES */

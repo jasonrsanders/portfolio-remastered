@@ -1090,13 +1090,12 @@ div.title-card {
     letter-spacing: 1px;
 }
     div.title-card div.titles div.title {
-      font-size: 3.5rem;
+      font-size: 1.5rem;
       padding: 10px;
       font-weight: 500;
       font-family: 'Megrim', cursive;
   }
     div.title-card div.titles div.sub-title {
-      font-size: 1.4rem;
+      font-size: .7rem;
       font-weight: 300;
-      margin-top: 20px;
   }
