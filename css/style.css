@@ -131,12 +131,13 @@ img {
     }
 }
 
-/*.page-effect.ng-leave        {
+.page-effect.ng-leave        {
     -webkit-animation: fadeInUp 2s ease-in-out;
     -moz-animation: fadeInUp 2s ease-in-out;
     -o-animation: fadeInUp 2s ease-in-out;
     animation: fadeInUp 2s ease-in-out;
-}*/
+}
+
 .page-effect.ng-enter 		{
     -webkit-animation: fadeInDown 2s ease-in;
     -moz-animation: fadeInDown 2s ease-in;
@@ -922,12 +923,6 @@ footer .footer-social a:hover{
 	font-size: 40px;
 }
 
-.project-icon-express {
-	width: 60px;
-    margin-bottom: 35px;
-    margin-right: -6px
-}
-
 .project-desc-icon {
     font-size: 35px;
     text-decoration: none;
@@ -1011,3 +1006,97 @@ footer .footer-social a:hover{
 	width:100%;
 	height:100%;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#landing {
+  height: 100vh;
+  padding: 0; }
+
+
+  /*.section {
+  position: relative;
+  height: calc(100vh - 44px);
+  width: 100%;
+  overflow-x: hidden;
+  overflow: hidden; }*/
+
+  div.landing-nav {
+  display: flex;
+  flex-wrap: wrap;
+  height: 100%;
+}
+  div.landing-nav a.nav-link {
+    width: 50%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #454545;
+    text-decoration: none;
+    color: #454545;
+    font-size: 1.5rem;
+    letter-spacing: 4px;
+}
+    div.landing-nav a.nav-link:hover {
+      background: #454545;
+      color: #fff;
+  }
+  div.landing-nav a.about span {
+    transform: rotate(-45deg);
+}
+  div.landing-nav a.projects span {
+    transform: rotate(45deg);
+}
+  div.landing-nav a.skills span {
+    transform: rotate(45deg);
+}
+  div.landing-nav a.contact span {
+    transform: rotate(-45deg);
+}
+
+/* END LANDING NAV LINKS */
+/* CENTER TITLE */
+div.title-card {
+  position: absolute;
+  left: calc(50% - 110px);
+  top: calc(50% - 110px);
+  height: 220px;
+  width: 220px;
+  background: #454545;
+  transform: rotate(45deg);
+}
+  div.title-card div.titles {
+    transform: rotate(-45deg);
+    height: 100%;
+    width: 100%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 1px;
+}
+    div.title-card div.titles div.title {
+      font-size: 3.5rem;
+      padding: 10px;
+      font-weight: 500;
+      font-family: 'Megrim', cursive;
+  }
+    div.title-card div.titles div.sub-title {
+      font-size: 1.4rem;
+      font-weight: 300;
+      margin-top: 20px;
+  }

@@ -82,10 +82,10 @@
 			                </ul>
 		                </dd>
 	                </dl>
-                    <div class="portfolio albumContainer activegrid" ng-controller="dataImagesWork">
+                    <div class="portfolio albumContainer activegrid" ng-controller="ModalCtrl">
 
-	                <ul id="product" class="nav-pills nav-stacked rectangle-list" ng-controller="dataImagesWork">
-                            <li class="col-md-4 my-gallery-animation item grid" ng-repeat="product in images_work | filter:myFilter" >
+	                <ul id="product" class="nav-pills nav-stacked rectangle-list" ng-controller="ModalCtrl">
+                            <li class="col-md-4 my-gallery-animation item grid" ng-repeat="product in modal | filter:myFilter" >
                                 <figure class="effect-oscar">
                                     <a href=""><img ng-src="images/portfolio/{{product.src}}" alt="" /></a>
                                     <figcaption>
