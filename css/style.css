@@ -1026,12 +1026,12 @@ footer .footer-social a:hover{
   padding: 0; }
 
 
-  /*.section {
+  .section {
   position: relative;
   height: calc(100vh - 44px);
   width: 100%;
   overflow-x: hidden;
-  overflow: hidden; }*/
+  overflow: hidden; }
 
   div.landing-nav {
   display: flex;
@@ -1063,7 +1063,7 @@ footer .footer-social a:hover{
   div.landing-nav a.skills span {
     transform: rotate(45deg);
 }
-  div.landing-nav a.contact span {
+  div.landing-nav a.contactLanding span {
     transform: rotate(-45deg);
 }
 
